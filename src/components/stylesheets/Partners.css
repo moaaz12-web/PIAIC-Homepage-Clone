@@ -1,0 +1,22 @@
+.PartnerImgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmax;
+}
+
+#pheads{
+    text-align: center;
+    font-size: 2vmax;
+    font-weight: bold;
+    color: black;
+}
+
+html{
+    background-color: rgb(230, 229, 220);
+
+}
+body{
+    background-color: rgb(230, 229, 220);
+
+}

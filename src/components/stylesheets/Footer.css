@@ -1,0 +1,32 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding:5vmax;
+    height: 18vmax;
+}
+
+.details1{
+    width: 60%;
+}
+
+ul li{
+    list-style: none;
+}
+
+.footer-p{
+    margin-bottom: 2vmax;
+    font-weight: bold;
+    font-size: 1.5vmax;
+
+}
+
+@media only screen and (max-width: 950px){
+    li, p{
+        font-size: 1.2vmax;
+    }
+}
+
+
+
