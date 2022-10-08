@@ -11,12 +11,19 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
-    background-color: greenyellow;
+    background-color: rgb(230, 229, 220);
 }
 .ImgDiv > img{
     width:50vmax;
     border-radius: 2vmax;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ImgDiv > img:hover{
+box-shadow: 3px 5px 4px 3px gray;
+transition:0.5s;
+border-radius:10px;
+}
 
     .heads
     
@@ -27,12 +34,12 @@
     }
 
     .subheads{
-        color:white;
+        color:black;
         font-size: 1.5vmax;
     }
 
 #heading-{
-    background-color: greenyellow;
+    background-color: rgb(230, 229, 220);
     color:black;
     padding-top:2vmax;
     padding-left:2vmax;
@@ -43,6 +50,19 @@
 .TextDiv{
     padding: 5vmax;
 
+}
+
+.abc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmax;
+    font-size: 1.2vmax;
+
+}
+
+.abc > span:hover{
+    font-weight: bold;
 }
 
 

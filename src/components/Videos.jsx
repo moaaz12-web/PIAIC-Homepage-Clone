@@ -78,9 +78,9 @@ const Videos = () => {
   const [title, setTitle] = useState(title1);
   const [text, setText] = useState(text1);
   return (
-    <>
-      <div className="container" data-aos="zoom-in" data-aos-duration="2000">
-        <h1>Videos</h1>
+    <div>
+      <div className="container" data-aos="fade-in" data-aos-duration="2000">
+        <h1 className="heading-of-videos">Videos</h1>
         <div className="content">
           <div className="videos">
             <iframe
@@ -102,143 +102,123 @@ const Videos = () => {
             <p className="bottom-text2">{text}</p>
           </div>
           <div className="videoLinks">
-            <ul>
-              <li>
-                <div
-                  className="subVideoLinks"
-                  onClick={() => {
-                    setTitle(title1);
-                    setLink(link1);
-                    setText(text1);
-                  }}
-                >
-                  <div
-                    style={{ backgroundImage: `url(${img1})`, ...options }}
-                  ></div>
-                  <div className="paraDiv">
-                    <h4>{title1}</h4>
-                    <p>{text1}</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div
-                  className="subVideoLinks"
-                  onClick={() => {
-                    setTitle(title2);
-                    setLink(link2);
-                    setText(text2);
-                  }}
-                >
-                  <div
-                    style={{ backgroundImage: `url(${img2})`, ...options }}
-                  ></div>
-                  <div className="paraDiv">
-                    <h4>{title2}</h4>
-                    <p>{text2}</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div
-                  className="subVideoLinks"
-                  onClick={() => {
-                    setTitle(title3);
-                    setLink(link3);
-                    setText(text3);
-                  }}
-                >
-                  <div
-                    style={{ backgroundImage: `url(${img3})`, ...options }}
-                  ></div>
-                  <div className="paraDiv">
-                    <h4>{title3}</h4>
-                    <p>{text3}</p>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div
-                  className="subVideoLinks"
-                  onClick={() => {
-                    setTitle(title4);
-                    setLink(link4);
-                    setText(text4);
-                  }}
-                >
-                  <div
-                    style={{ backgroundImage: `url(${img4})`, ...options }}
-                  ></div>
-                  <div className="paraDiv">
-                    <h4>{title4}</h4>
-                    <p>{text4}</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div
-                  className="subVideoLinks"
-                  onClick={() => {
-                    setTitle(title5);
-                    setLink(link5);
-                    setText(text5);
-                  }}
-                >
-                  <div
-                    style={{ backgroundImage: `url(${img5})`, ...options }}
-                  ></div>
-                  <div className="paraDiv">
-                    <h4>{title5}</h4>
-                    <p>{text5}</p>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div
-                  className="subVideoLinks"
-                  onClick={() => {
-                    setTitle(title8);
-                    setLink(link8);
-                    setText(text8);
-                  }}
-                >
-                  <div
-                    style={{ backgroundImage: `url(${img8})`, ...options }}
-                  ></div>
-                  <div className="paraDiv">
-                    <h4>{title8}</h4>
-                    <p>{text8}</p>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div
-                  className="subVideoLinks"
-                  onClick={() => {
-                    setTitle(title10);
-                    setLink(link10);
-                    setText(text10);
-                  }}
-                >
-                  <div
-                    style={{ backgroundImage: `url(${img10})`, ...options }}
-                  ></div>
-                  <div className="paraDiv">
-                    <h4>{title10}</h4>
-                    <p>{text10}</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
+            <div
+              className="subVideoLinks"
+              onClick={() => {
+                setTitle(title1);
+                setLink(link1);
+                setText(text1);
+              }}
+            >
+              <div
+                style={{ backgroundImage: `url(${img1})`, ...options }}
+              ></div>
+              <div >
+                <h4>{title1}</h4>
+                <p>{text1}</p>
+              </div>
+            </div>
+            <div
+              className="subVideoLinks"
+              onClick={() => {
+                setTitle(title2);
+                setLink(link2);
+                setText(text2);
+              }}
+            >
+              <div
+                style={{ backgroundImage: `url(${img2})`, ...options }}
+              ></div>
+              <div >
+                <h4>{title2}</h4>
+                <p>{text2}</p>
+              </div>
+            </div>
+            <div
+              className="subVideoLinks"
+              onClick={() => {
+                setTitle(title3);
+                setLink(link3);
+                setText(text3);
+              }}
+            >
+              <div
+                style={{ backgroundImage: `url(${img3})`, ...options }}
+              ></div>
+              <div >
+                <h4>{title3}</h4>
+                <p>{text3}</p>
+              </div>
+            </div>
+            <div
+              className="subVideoLinks"
+              onClick={() => {
+                setTitle(title4);
+                setLink(link4);
+                setText(text4);
+              }}
+            >
+              <div
+                style={{ backgroundImage: `url(${img4})`, ...options }}
+              ></div>
+              <div >
+                <h4>{title4}</h4>
+                <p>{text4}</p>
+              </div>
+            </div>
+            <div
+              className="subVideoLinks"
+              onClick={() => {
+                setTitle(title5);
+                setLink(link5);
+                setText(text5);
+              }}
+            >
+              <div
+                style={{ backgroundImage: `url(${img5})`, ...options }}
+              ></div>
+              <div >
+                <h4>{title5}</h4>
+                <p>{text5}</p>
+              </div>
+            </div>
+            <div
+              className="subVideoLinks"
+              onClick={() => {
+                setTitle(title8);
+                setLink(link8);
+                setText(text8);
+              }}
+            >
+              <div
+                style={{ backgroundImage: `url(${img8})`, ...options }}
+              ></div>
+              <div >
+                <h4>{title8}</h4>
+                <p>{text8}</p>
+              </div>
+            </div>
+            <div
+              className="subVideoLinks"
+              onClick={() => {
+                setTitle(title10);
+                setLink(link10);
+                setText(text10);
+              }}
+            >
+              <div
+                style={{ backgroundImage: `url(${img10})`, ...options }}
+              ></div>
+              <div >
+                <h4>{title10}</h4>
+                <p>{text10}</p>
+              </div>
+            </div>
           </div>
         </div>
-        {/* <p className="bottom-text1">{title}</p>
-    <p className="bottom-text2">{text}</p> */}
+
       </div>
-    </>
+    </div>
   );
 };
 

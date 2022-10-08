@@ -5,7 +5,6 @@ import AOS  from 'aos';
 import React, {useEffect} from 'react';
 import Header from './components/Header'
 import SlideShow from './components/SlideShow';
-
 import Main from './components/Main';
 import Videos from './components/Videos';
 import Partners from "./components/Partners";
@@ -16,15 +15,15 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-    <>
-      <Header data-aos="fade-left" data-aos-duration="3000"/>
-      <Main/>
+    <div>
+      <Header />
+       <Main/>
       <Videos/>
       <SlideShow/>
       <Partners/>
-      <Footer/>
+      <Footer/> 
 
-    </>
+    </div>
   );
 }
 

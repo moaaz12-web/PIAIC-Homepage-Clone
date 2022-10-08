@@ -2,7 +2,7 @@ import React from "react";
 import "./stylesheets/Main.css";
 const Main = () => {
   return (
-    <>
+    <div>
       <body>
         <div className="imgDiv">
           <img src=".\images\download.jpg" alt="" />
@@ -21,9 +21,9 @@ const Main = () => {
               {/* </div> */}
             </li>
             <div className="smallDiv">
+            <p>Available Programs</p>
               <button>APPLY</button>
             </div>
-            <p id="li4">Available Programs</p>
           </ul>
         </div>
       </body>
@@ -53,7 +53,7 @@ const Main = () => {
           </div>
         </div>
       </section>
-    </>
+      </div>
   );
 };
 

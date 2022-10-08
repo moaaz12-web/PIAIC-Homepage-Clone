@@ -2,6 +2,7 @@ import React from "react";
 import "./stylesheets/Footer.css";
 const Footer = () => {
   return (
+    <div data-aos="fade-up-left" data-aos-duration="2000">
     <footer>
       <div className="details1">
         <p className="footer-p">Navigation</p>
@@ -24,6 +25,7 @@ const Footer = () => {
         
       </div>
     </footer>
+    </div>
   );
 };
 

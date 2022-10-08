@@ -5,6 +5,12 @@
     gap: 2vmax;
 }
 
+.PartnerImgs>img:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+    transition:1s;
+    border-radius:10px;
+}
+
 #pheads{
     text-align: center;
     font-size: 2vmax;

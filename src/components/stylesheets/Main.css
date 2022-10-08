@@ -2,16 +2,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vmax;
     background-color: white;
+    overflow-x: hidden;
 }
 
 .imgDiv{
-    width: 40%;
+    width: 30%;
     height:max-content;
 }
 .contentDiv{
-    height:max-content;
+    width: 70%;
 }
 ul li{
     list-style: none;
@@ -19,64 +20,62 @@ ul li{
 ul{margin-top: 4vmax;}
 
 #li1{
-    font-size: 6.5vmax;
+    font-size: 4vmax;
 }
 
 #li2{
-    font-size: 3vmax;
+    font-size: 2vmax;
 }
 
 #li3{
-    font-size: 1vmax;
-    margin-top: 3vmax;
-    margin-right:15vmax;
+    font-size: 1.3vmax;
+    margin-top: 2vmax;
+    padding-right: 18vmax;
+    /* margin-right:15vmax; */
     justify-content: center;
     margin-bottom: 4vmax;
 }
 
-#li4{
-    font-size: 3.5vmax;
-    color:gray;
-    margin-right:25vmax;
-    text-align: center;
-    margin-top: -4vmax;
-}
-
-button{
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-        color:black;
-    border-radius: 10px;
-    width:18vmin;
-    height:5vmax;
-margin-left: 60vmax;}
-
-
-section{
-    width:100vmax;
-}
-body{
-    width:100vmax;
-}
-
 .smallDiv{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items:center;
+}
+
+.smallDiv > button{
+    margin-right: 9vmax;
+    background-color: gray;
+    border-radius: 10px;
+    width: 8vmax;
+    height: 4vmax;
+    transition: 0.5s;
+}
+
+.smallDiv > button:hover{
+    background-color: rgb(61, 55, 55);
+    cursor: pointer;
+}
+
+.smallDiv > p{
+    font-size: 3vmax;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:gray
+    
 }
 
 
 .imgDiv > img{
-    width: 75%;
-    height:100%;
-    /* display: none; */
+    width: 20vmax;
+    object-fit: cover;
+    margin-top: 5vmax;
 }
 
 section{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    /* width: 100%; */
+    width: 100vmax; 
     position: absolute;
     top:50vmax;
 }
@@ -99,7 +98,7 @@ section{
 }
 
 div{
-    transition: 0.5s;
+    transition: 1.5s;
 }
 
 .blue-sub{
@@ -178,7 +177,16 @@ div{
 }
 
 
+section{
+    background-color: rgb(230, 229, 220);
+}
+
+
+
+
 @media only screen and (max-width: 1100px){
+
+    
     section{
         flex-direction: column;
         align-items:center;
@@ -195,12 +203,13 @@ div{
         width: 30vmax;
         height: 15vmax;
     }
+
+    html{
+        overflow-x: hidden;
+    }
 }
 
 
-section{
-    background-color: rgb(230, 229, 220);
-}
 
 @media only screen and (max-width: 800px){
     section{
@@ -210,6 +219,26 @@ section{
         gap:5vmax;
         justify-content: space-between;
     }
+    
+
+    #li1{
+        font-size: 4.5vmax;
+    }
+
+    #li2{
+        font-size: 3vmax;
+    }
+
+    #li3{
+        font-size: 2vmax;
+        padding-right: 15vmax;
+    }
+
+    .contentDiv{
+        width: 85%;
+    }
+
+
 
     
     .subhead{
