@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PIAIC-Homepage-Clone/precache-manifest.cba01e1b0ea6ac7c224f42196785ac5f.js"
+  "/PIAIC-Homepage-Clone/precache-manifest.5b3a825036f8e922ade9639dea9a2fa2.js"
 );
 
 workbox.clientsClaim();
