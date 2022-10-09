@@ -1,7 +1,7 @@
 {
-  "main.css": "/PIAIC-Homepage-Clone/static/css/main.9c2b72c9.chunk.css",
-  "main.js": "/PIAIC-Homepage-Clone/static/js/main.2a10bdae.chunk.js",
-  "main.js.map": "/PIAIC-Homepage-Clone/static/js/main.2a10bdae.chunk.js.map",
+  "main.css": "/PIAIC-Homepage-Clone/static/css/main.c6893a06.chunk.css",
+  "main.js": "/PIAIC-Homepage-Clone/static/js/main.132d5d32.chunk.js",
+  "main.js.map": "/PIAIC-Homepage-Clone/static/js/main.132d5d32.chunk.js.map",
   "static/js/1.af08dc77.chunk.js": "/PIAIC-Homepage-Clone/static/js/1.af08dc77.chunk.js",
   "static/js/1.af08dc77.chunk.js.map": "/PIAIC-Homepage-Clone/static/js/1.af08dc77.chunk.js.map",
   "static/css/2.34cacefd.chunk.css": "/PIAIC-Homepage-Clone/static/css/2.34cacefd.chunk.css",
@@ -9,9 +9,9 @@
   "static/js/2.e81481e0.chunk.js.map": "/PIAIC-Homepage-Clone/static/js/2.e81481e0.chunk.js.map",
   "runtime~main.js": "/PIAIC-Homepage-Clone/static/js/runtime~main.15617e11.js",
   "runtime~main.js.map": "/PIAIC-Homepage-Clone/static/js/runtime~main.15617e11.js.map",
-  "static/css/main.9c2b72c9.chunk.css.map": "/PIAIC-Homepage-Clone/static/css/main.9c2b72c9.chunk.css.map",
+  "static/css/main.c6893a06.chunk.css.map": "/PIAIC-Homepage-Clone/static/css/main.c6893a06.chunk.css.map",
   "static/css/2.34cacefd.chunk.css.map": "/PIAIC-Homepage-Clone/static/css/2.34cacefd.chunk.css.map",
   "index.html": "/PIAIC-Homepage-Clone/index.html",
-  "precache-manifest.f0189dd7748e41cad1f7f95708270477.js": "/PIAIC-Homepage-Clone/precache-manifest.f0189dd7748e41cad1f7f95708270477.js",
+  "precache-manifest.899ac023eedae43742cfc3d574d89639.js": "/PIAIC-Homepage-Clone/precache-manifest.899ac023eedae43742cfc3d574d89639.js",
   "service-worker.js": "/PIAIC-Homepage-Clone/service-worker.js"
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2a10bdaec67681c541cf",
-    "url": "/PIAIC-Homepage-Clone/static/css/main.9c2b72c9.chunk.css"
+    "revision": "132d5d32fea57f55218a",
+    "url": "/PIAIC-Homepage-Clone/static/css/main.c6893a06.chunk.css"
   },
   {
-    "revision": "2a10bdaec67681c541cf",
-    "url": "/PIAIC-Homepage-Clone/static/js/main.2a10bdae.chunk.js"
+    "revision": "132d5d32fea57f55218a",
+    "url": "/PIAIC-Homepage-Clone/static/js/main.132d5d32.chunk.js"
   },
   {
     "revision": "af08dc77e4e76da41e54",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/PIAIC-Homepage-Clone/static/js/runtime~main.15617e11.js"
   },
   {
-    "revision": "95f7fd0c7500c5b129ba69edbdd178a4",
+    "revision": "f65f5164945807057170be64f88030dc",
     "url": "/PIAIC-Homepage-Clone/index.html"
   }
 ];
