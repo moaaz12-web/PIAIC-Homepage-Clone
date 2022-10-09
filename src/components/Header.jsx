@@ -16,27 +16,17 @@ const Header = () => {
     </div>
     </div>
 
-    //     <>
-    //     <div className='upd'>
-    //     <header data-aos="fade-down" data-aos-duration="2000">
-    //         <img src=".\images\logo.svg" alt=""  />
-    //         <nav>
-    //             <div className="links" data-aos="fade-up"
-    //      data-aos-duration="3000">How it works</div>
-    //             {/* <div className="links"data-aos="fade-up"
-    //      data-aos-duration="3000">Apply</div> */}
-    //             <div className="links"data-aos="fade-up"
-    //      data-aos-duration="3000">Available Programs</div>
-    //             <div className="links"data-aos="fade-up"
-    //      data-aos-duration="3000">About Us</div>
-    //             <div className="links"data-aos="fade-up"
-    //      data-aos-duration="3000">WIT</div>
-    //         </nav>
-    //     </header>
-    //     </div>
-    //     {/* <div className='border'></div> */}
-    //     </>
+    // <div>
+    //   <img src=".\images\logo.svg" alt=""  />
+    //   <ul>
+    //     <li>How it works</li>
+    //     <li>Apply</li>
+    //     <li>Available Programs</li>
+    //     <li>Abour US</li>
+    //     <li>WIT</li>
+    //   </ul>
 
+    // </div>
   
   );
 };

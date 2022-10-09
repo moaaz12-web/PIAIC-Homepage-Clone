@@ -1,6 +1,6 @@
 .container{
-    margin-top:24vmax;
-    width:100vmax;
+    margin-top:3vmax;
+    max-width:100vmax;
     display: block;
     background-color: rgba(0, 0, 0);
 }
@@ -20,7 +20,7 @@
 
 .videos{
     background-color: rgba(0, 0, 0);
-    width: 60%;
+    width: 100%;
     margin-left: 2vmax;
 
 }
@@ -32,7 +32,7 @@
     overflow-y:auto;
     overflow-x: hidden;
     background-color: gray;
-    width:40%;
+    max-width:90%;
     margin-left: 2vmax;
     box-shadow: rgba(255, 255, 255, 0.36) 2px 3px 6px, rgba(255, 255, 255, 0.36) 0px 3px 6px;
     margin-right: 3vmax;
@@ -45,9 +45,9 @@ iframe {
     width:90%;
     padding: 20px;
     border-radius: 2vmax;
-    background-color: gray;
+    /* background-color: gray; */
 
-    box-shadow: rgba(255, 255, 255, 0.36) 2px 3px 6px, rgba(255, 255, 255, 0.36) 0px 3px 6px;
+    /* box-shadow: rgba(255, 255, 255, 0.36) 2px 3px 6px, rgba(255, 255, 255, 0.36) 0px 3px 6px; */
 
 }
 
@@ -65,14 +65,13 @@ iframe {
 
 
 .bottom-text1{
-    margin-left: 1.7vmax;
+    text-align: center;
     font-size :1.7vmax;
     color:  rgb(20, 240, 104);
 }
 
 .bottom-text2{
-    /* margin-left: 1.7vmax; */
-    /* font-size :1.2vmax; */
+    text-align: center;
     color: white;
 }
 
@@ -113,11 +112,6 @@ h4{
 
 
 
-@media only screen and (max-width: 1100px){
-    .container{
-        margin-top: 90vmax;
-    }
-}
 
 @media only screen and (max-width: 1000px){
     .content{
@@ -136,10 +130,4 @@ h4{
     }
 
   
-}
-
-@media only screen and (max-width: 550px){
-    .container{
-        margin-top: 85vmax;
-    }
 }

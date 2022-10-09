@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vmax;
+    max-width: 100vmax;
     background-color: #08AEEA;
     background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);    gap:5vmax;
     overflow-x: hidden;
@@ -65,11 +65,11 @@ span:hover{
 
 @media screen and (max-width:425px) {
     .headLinks>span{
-        padding: 2vmax 1.5vmax;
-        font-size:1.8vmax;        
+        padding: 2vmax 1.3vmax;
+        font-size:1.5vmax;        
     }
     .headImg>img{
-        max-width: 8vmax;
+        max-width: 7.6vmax;
     }
     .header{
         background-color: tan;

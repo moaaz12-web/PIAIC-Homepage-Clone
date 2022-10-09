@@ -31,7 +31,8 @@ const SlideShow = () => {
     return (
         <div>
             <div className="ccontainer">
-                <div id="heading-">Images</div>
+            <h1 className="heading-of-images">Images</h1>
+
                 <div className='CONTENT'>
                     <div className="ImgDiv">
                         <img src={Img}  alt="" data-aos="zoom-in" data-aos-duration="2000"/>

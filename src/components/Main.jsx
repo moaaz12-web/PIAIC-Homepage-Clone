@@ -2,8 +2,8 @@ import React from "react";
 import "./stylesheets/Main.css";
 const Main = () => {
   return (
-    <div>
-      <body>
+    <div className="parentDiv">
+      <body className="body">
         <div className="imgDiv">
           <img src=".\images\download.jpg" alt="" />
         </div>

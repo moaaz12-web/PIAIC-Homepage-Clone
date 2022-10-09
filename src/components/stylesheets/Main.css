@@ -1,10 +1,10 @@
-body{
+.body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vmax;
+    max-width: 100vmax;
     background-color: white;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .imgDiv{
@@ -65,6 +65,15 @@ ul{margin-top: 4vmax;}
 }
 
 
+.parentDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vmax;
+    flex-direction: column;
+    gap:5vmax;
+}
+
 .imgDiv > img{
     width: 20vmax;
     object-fit: cover;
@@ -73,11 +82,11 @@ ul{margin-top: 4vmax;}
 
 section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap:5vmax;
     align-items: flex-start;
-    width: 100vmax; 
-    position: absolute;
-    top:50vmax;
+    max-width: 100vmax;
+    margin-top: 5vmax;
 }
 
 .cards{
@@ -219,6 +228,11 @@ section{
         gap:5vmax;
         justify-content: space-between;
     }
+
+    .imgDiv>img{
+        margin-top: -5vmax;
+
+    }
     
 
     #li1{
@@ -231,7 +245,7 @@ section{
 
     #li3{
         font-size: 2vmax;
-        padding-right: 15vmax;
+        padding-right: 10vmax;
     }
 
     .contentDiv{
@@ -249,6 +263,26 @@ section{
 }
 
 @media only screen and (max-width: 550px){
+    
+    #li3{
+        font-size: 1.7vmax;
+        padding-right: 6vmax;
+    }
+
+
+
+}
+@media only screen and (max-width: 450px){
+    
+    #li3{
+        font-size: 1.5vmax;
+        padding-right: 4vmax;
+    }
+
+    .imgDiv>img{
+        width: 17vmax;
+    }
+
 
 
 }
