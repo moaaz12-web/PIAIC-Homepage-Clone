@@ -22,7 +22,6 @@ function App() {
       <SlideShow/>
       <Partners/>
       <Footer/> 
-
     </div>
   );
 }

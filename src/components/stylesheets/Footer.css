@@ -4,7 +4,7 @@ footer{
     background-color: gray;
     padding:5vmax;
     height: 20vmax;
-    max-width: 100vmax;
+    max-width: 100%;
     gap:5vmax;
 }
 
